@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 0% 5%;
+}
+
+/* About Me */
+.about-title {
+  text-align: center;
+}
+.about-content {
+  display: flex;
+}
+.about-content-img {
+  flex-shrink: 0;
+  width: 300px;
+}
+.about-content-desc {
+  max-width: 800px;
+}
+
+/* Projects */
+.projects-container {
+  text-align: center;
+}
+.projects-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.project-card {
+  width: 300px;
+  margin: 15px;
+  padding: 30px;
+  border: solid 5px;
+}
